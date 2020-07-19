@@ -45,7 +45,7 @@ curl -X GET \
 **2 a) All assumptions you have made** <br /> 
 **1)**   We are goint to call Api in every 5 second from front-end  by using polling concept for  tracking locations of all drivers in real-time.
  <br /> 
-**2 b) Approach to your solution**
+**2 b) Approach to your solution**  <br /> 
 I am storing data(driver_lat,driver_lon, driver_id, point(driver_lon,driver_lat) ) of driver in Postgres. Whenever Front-end call the Api with search_lat , search_lon, radius(default = 200 meter), we fetch data from Postgres in ascending order of distance between driver and search_point. We can do pooling from front_end to track the live location of driver in every 5 seconds.
  <br /> 
 **2 C) Any DB schema or setup scripts**

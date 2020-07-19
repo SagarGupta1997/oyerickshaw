@@ -30,7 +30,11 @@ insert some data by running the command
  ;
  
  
-make coonection to postgreSQL;
+##make coonection to postgreSQL;
+
+Swagger link to use Api : http://localhost:8080/swagger-ui.html#/service-controller/getDriversNearUserUsingGET
+
+
 
 
 

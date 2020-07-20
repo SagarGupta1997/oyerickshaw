@@ -72,7 +72,7 @@ Data will be auto inserted by using Data.sql when we run project. <br /> <br />
  <br /> <br /> 
 **2 d). Steps to run your application** <br /> 
 You should have Postgres, Spring Boot, Java installed on your system. <br /> 
-first of clone the repository.  <br /> 
+first of all clone the repository.  <br /> 
 build the project.  <br /> 
 set up the Postgres for postgis.  <br /> 
 create database and table in postgres.  <br /> 
